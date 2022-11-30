@@ -1,0 +1,82 @@
+aside {
+    background-color: $white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: $border;
+    width: 21%;
+    height: 100vh;
+
+    h3 {
+        font-size: 19px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+
+        div {
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 24px;
+            button {
+
+                &:first-child{
+                    padding-right: 36px;
+                    padding-left: 36px;
+                }
+
+                padding: 5px;
+                background: $oragen;
+                color: $white;
+                border: none;
+                padding: 8px 30px;
+                border-radius: 4px;
+                font-size: 18px;
+                font-weight: 500;
+
+                &:hover {
+                    background: $black;
+                }
+            }
+        }
+
+        
+    }
+
+    div {
+            transition: 0.5s all ease;
+        a {
+            display: flex;
+            align-items: center;
+            padding: 20px 10px;
+            margin: 5px 0;
+            font-size: 18px;
+            text-decoration: none;
+            color: $light-color;
+
+            span {
+                transition: 0.5s all ease;
+            }
+
+            &:hover {
+                background: $light-bg;
+                color: $light-color;
+
+                span {
+                    padding-left: 15px;
+                }
+            }
+
+            i {
+                margin: 0 10px;
+                color: $main-color
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+// Write Sequelize Here

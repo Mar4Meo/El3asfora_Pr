@@ -1,0 +1,64 @@
+header {
+    #logo {
+        span {
+            font-size: 25px;
+            // font-weight: bold;
+            opacity: 0.8;
+        }
+    }
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 79%;
+    background-color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 1200;
+
+    & > div, form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    form {
+
+        input {
+            border: none !important;
+            font-weight: bold !important;
+            opacity: 0.8;
+            background-color: $light-bg !important;
+            padding: 15px 250px 15px 20px !important;
+            letter-spacing: 0.5px;
+        }
+        button {
+            position: relative;
+            left: -45px;
+
+            &:hover {
+                i {
+                    color: $main-color !important;
+                }
+
+            }
+            
+            i {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    #profile > div {
+        margin-right: 10px;
+        padding: 10px 15px;
+        background-color: $light-bg;
+        border-radius: 5px;
+
+        i {
+            opacity: 0.8;
+            font-size: 18px;
+        }
+    }
+}

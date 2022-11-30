@@ -1,0 +1,219 @@
+body {
+  background-color: #eee;
+  overflow-x: hidden !important;
+}
+
+header {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 79%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  z-index: 1200;
+}
+header #logo span {
+  font-size: 25px;
+  opacity: 0.8;
+}
+header > div, header form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header form input {
+  border: none !important;
+  font-weight: bold !important;
+  opacity: 0.8;
+  background-color: #eee !important;
+  padding: 15px 250px 15px 20px !important;
+  letter-spacing: 0.5px;
+}
+header form button {
+  position: relative;
+  left: -45px;
+}
+header form button:hover i {
+  color: #8e44ad !important;
+}
+header form button i {
+  transform: scale(1.2);
+}
+header #profile > div {
+  margin-right: 10px;
+  padding: 10px 15px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+header #profile > div i {
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+aside {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: 0.1rem solid rgba(0, 0, 0, 0.2);
+  width: 21%;
+  height: 100vh;
+}
+aside h3 {
+  font-size: 19px;
+  text-align: center;
+  margin-top: 25px;
+}
+aside form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+aside form div {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 24px;
+}
+aside form div button {
+  padding: 5px;
+  background: #f39c12;
+  color: #fff;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+}
+aside form div button:first-child {
+  padding-right: 36px;
+  padding-left: 36px;
+}
+aside form div button:hover {
+  background: #2c3e50;
+}
+aside div {
+  transition: 0.5s all ease;
+}
+aside div a {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  margin: 5px 0;
+  font-size: 18px;
+  text-decoration: none;
+  color: #888;
+}
+aside div a span {
+  transition: 0.5s all ease;
+}
+aside div a:hover {
+  background: #eee;
+  color: #888;
+}
+aside div a:hover span {
+  padding-left: 15px;
+}
+aside div a i {
+  margin: 0 10px;
+  color: #8e44ad;
+}
+
+#body-home {
+  position: relative;
+  height: 2000px;
+  top: 75px;
+  left: 21%;
+  padding: 20px 340px 20px 13px;
+}
+#body-home .header h4 {
+  opacity: 0.9;
+}
+#body-home .col {
+  background: #fff;
+  margin-left: 10px;
+  border-radius: 4px;
+  padding-bottom: 10px;
+}
+#body-home .col:first-child {
+  height: 120px;
+}
+#body-home h3 {
+  font-size: 19px;
+  text-align: start;
+  margin: 20px 0 15px 0;
+}
+#body-home .login-home, #body-home .login-home h3 {
+  text-align: center !important;
+}
+#body-home .login-home button {
+  margin-bottom: 20px;
+  padding: 5px;
+  background: #f39c12;
+  color: #fff;
+  border: none;
+  padding: 8px 40px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+}
+#body-home .login-home button:first-child {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: 4px;
+}
+#body-home .login-home button:hover {
+  background: #2c3e50;
+}
+#body-home .top-category a, #body-home .popular-topics a {
+  display: flex;
+  justify-content: space-between;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #eee;
+  color: #888;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+#body-home .top-category a:hover, #body-home .popular-topics a:hover {
+  background: #2c3e50;
+  color: #fff;
+}
+#body-home .top-category a:hover i, #body-home .popular-topics a:hover i {
+  color: #fff;
+}
+#body-home .top-category a i, #body-home .popular-topics a i {
+  margin-left: -8px;
+  margin-right: 5px;
+  color: #2c3e50;
+}
+#body-home .Tutor {
+  height: 260px !important;
+  padding: 0 20px;
+  width: 345px;
+  margin-top: 5px;
+}
+#body-home .Tutor div h4 {
+  color: #2c3e50;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#body-home .Tutor a {
+  text-decoration: none;
+  background-color: #8e44ad;
+  padding: 10px 20px;
+  color: #fff;
+  position: relative;
+  top: 16px;
+  border-radius: 4px;
+}
+#body-home .latest-courses {
+  margin-top: 30px;
+}

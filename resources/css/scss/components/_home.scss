@@ -1,0 +1,125 @@
+#body-home {
+    position: relative;
+    height: 2000px;
+    top: 75px;
+    left: 21%;
+    padding: 20px 340px 20px 13px;
+    .header {
+        h4 {
+            opacity: 0.9;
+        }
+    }
+
+    .col {
+        &:first-child {
+        height: 120px;
+
+        }
+        background: $white;
+        margin-left: 10px;
+        border-radius: 4px;
+        padding-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 19px;
+        text-align: start;
+        margin: 20px 0 15px 0;
+    }
+
+    .login-home {
+
+        &, h3 {
+        text-align: center !important;
+        }
+
+        button {
+                margin-bottom: 20px;
+                
+                &:first-child{
+                    padding-right: 50px;
+                    padding-left: 50px;
+                    margin-right: 4px;
+                }
+
+                padding: 5px;
+                background: $oragen;
+                color: $white;
+                border: none;
+                padding: 8px 40px;
+                border-radius: 4px;
+                font-size: 18px;
+                font-weight: 500;
+
+                &:hover {
+                    background: $black;
+                }
+            }
+    }
+
+    .top-category, .popular-topics {
+
+            // display: flex;
+            // flex-wrap: wrap;
+
+        a {
+            display: flex;
+            justify-content: space-between;
+            display: inline-block;
+            text-decoration: none;
+            background-color: $light-bg;
+            color: $light-color;
+            border: none;
+            padding: 10px 20px;
+            margin-bottom: 5px;
+            border-radius: 4px;
+            margin-bottom: 5px;
+
+
+            &:hover {
+                background: $black;
+                color: $white;
+
+                i {
+                    color: $white;
+                }
+            }
+
+            i {
+                margin-left: -8px;
+                margin-right: 5px;
+                color: $black;
+            }
+        }
+    }
+
+    .Tutor {
+        height: 260px !important;
+        padding: 0 20px;
+        width: 345px;
+        margin-top: 5px;
+
+        div {
+
+            h4 {
+                color: $black;
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            background-color: $main-color;
+            padding: 10px 20px;
+            color: $white;
+            position: relative;
+            top: 16px;
+            border-radius: 4px;
+        }
+    }
+
+    .latest-courses {
+        margin-top: 30px;
+    }
+}

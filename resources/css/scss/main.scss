@@ -1,0 +1,22 @@
+$main-color: #8e44ad;
+$red: #e74c3c;
+$oragen: #f39c12;
+$white: #fff;
+$black: #2c3e50;
+$light-color: #888;
+$light-bg: #eee;
+$border: .1rem solid rgba(0,0,0,.2);
+
+// * {
+//     font-family: 'Nunito', sans-serif;
+// }
+
+body {
+    background-color: $light-bg;
+    overflow-x: hidden !important;
+}
+
+@import './components/header';
+@import './components/aside';
+@import './components/home';
+@import './components/footer';
